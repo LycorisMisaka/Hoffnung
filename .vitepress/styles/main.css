@@ -1,10 +1,11 @@
 @import 'kbd.css';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 html, body {
   -webkit-tap-highlight-color: transparent; /* 避免触屏下的点击高亮颜色 */
 }
 
-/* 参考 Vitest */
+/* 参�?Vitest */
 /* fix height ~ 2 lines of text: 3 or more cards per row */
 .VPTeamMembersItem.small .profile .data .affiliation {
   min-height: 3rem;
@@ -72,35 +73,22 @@ html, body {
   max-width: unset;
 }
 
-/* 标题所需要的字体 */
-@font-face {
-  font-family: tengwarannatar;
-  src: url(/tengwar-annatar-glaemscrafu.woff2) format('woff2');
-  font-weight: 400;
-  font-style: normal;
-  font-display: block;
-}
 
-/* 标题所需要的字体 */
-@font-face {
-  font-family: tengwarannatar-bold;
-  src: url(/tengwar-annatar-glaemscrafu-bold.woff2) format('woff2');
-  font-weight: 400;
-  font-style: normal;
-  font-display: block;
-}
+
+
 
 /* 首页标题样式 */
 .VPHomeHero > .container > .main > h1 {
   font-size: 5rem;
-  font-family: 'tengwarannatar-bold';
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
 }
 
 .VPHero.has-image span.name:nth-child(1) {
   line-height: 7rem;
 }
 
-/* 首页子标题样式 */
+/* 首页子标题样�?*/
 .VPHomeHero > .container > .main > .text {
   padding-top: 45px;
   font-size: 4rem;
@@ -118,7 +106,7 @@ html, body {
     font-size: 3.5rem;
   }
 
-  /* 首页子标题样式 */
+  /* 首页子标题样�?*/
   .VPHomeHero > .container > .main > .text {
     padding-top: 30px;
     font-size: 3rem;
@@ -137,7 +125,7 @@ html, body {
     font-size: 2.5rem;
   }
 
-  /* 首页子标题样式 */
+  /* 首页子标题样�?*/
   .VPHomeHero > .container > .main > .text {
     padding-top: 20px;
     font-size: 2rem;
@@ -149,12 +137,12 @@ html, body {
   }
 }
 
-/* 主页下方的页脚透明度 */
+/* 主页下方的页脚透明�?*/
 .VPFooter {
   opacity: 0.8;
 }
 
-/* 正文结尾的 CC 协议链接基本样式 */
+/* 正文结尾�?CC 协议链接基本样式 */
 .footer-cc-link {
   color: var(--vp-c-text-2);
   transition: all 0.3s ease;
@@ -162,12 +150,12 @@ html, body {
   text-decoration-color: rgb(114, 114, 114);
 }
 
-/* 正文结尾的 CC 协议链接鼠标 hover 样式 */
+/* 正文结尾�?CC 协议链接鼠标 hover 样式 */
 .footer-cc-link:hover {
   color: var(--vp-c-text-1);
 }
 
-/* 正文结尾的 CC 协议链接暗色模式下鼠标 hover 样式 */
+/* 正文结尾�?CC 协议链接暗色模式下鼠�?hover 样式 */
 .dark .footer-cc-link:hover {
   color: var(--vp-c-text-1);
 }
@@ -182,7 +170,7 @@ html, body {
   margin-top: 32px;
   opacity: 0.9;
   font-size: 12px;
-  /* 确保脚注上的返回链接符号 ↩ 不会被 body 的 Emoji 字体覆盖渲染为 ↩️ */
+  /* 确保脚注上的返回链接符号 �?不会�?body �?Emoji 字体覆盖渲染�?↩️ */
   font-family: sans-serif;
 }
 
@@ -190,7 +178,7 @@ html, body {
   line-height: 18px;
 }
 
-/* 覆盖正文的 h1 标题样式 */
+/* 覆盖正文�?h1 标题样式 */
 .vp-doc > div > h1 {
   margin-bottom: 16px;
 }
@@ -225,7 +213,7 @@ html, body {
 }
 
 /**
-  暗色模式下 Discord 链接按钮样式
+  暗色模式�?Discord 链接按钮样式
 */
 
 .dark .VPHero.VPHomeHero .actions a[href="https://discord.gg/XuNFDcDZGj"] {
@@ -265,7 +253,7 @@ html, body {
 }
 
 /**
-  暗色模式下 GitHub 链接按钮样式
+  暗色模式�?GitHub 链接按钮样式
 */
 
 .dark .VPHero.VPHomeHero .actions a[href="https://github.com/nolebase/nolebase"] {
@@ -283,3 +271,10 @@ html, body {
   color: white;
   background-color: #4b4b4b;
 }
+
+
+
+
+
+
+

@@ -25,14 +25,13 @@
             "id": "ea65bc0da501beda",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "zh-CN/笔记/🛠️ 开发/为 DuckDB WASM 制作 Drizzle ORM Driver.md",
-                "mode": "source",
-                "source": false
+                "file": "未命名.base",
+                "viewName": "表格"
               },
-              "icon": "lucide-file",
-              "title": "为 DuckDB WASM 制作 Drizzle ORM Driver"
+              "icon": "lucide-table",
+              "title": "未命名"
             }
           }
         ],
@@ -55,7 +54,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -67,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "基础设施 AWS",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -84,8 +84,8 @@
             "state": {
               "type": "starred",
               "state": {},
-              "icon": "lucide-file",
-              "title": "插件不再活动"
+              "icon": "lucide-ghost",
+              "title": "starred"
             }
           },
           {
@@ -104,11 +104,12 @@
             "state": {
               "type": "recent-files",
               "state": {},
-              "icon": "lucide-file",
-              "title": "插件不再活动"
+              "icon": "lucide-ghost",
+              "title": "recent-files"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -192,8 +193,8 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "插件不再活动"
+              "icon": "lucide-ghost",
+              "title": "review-queue-list-view"
             }
           },
           {
@@ -202,8 +203,8 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "插件不再活动"
+              "icon": "lucide-ghost",
+              "title": "review-queue-list-view"
             }
           }
         ],
@@ -270,17 +271,30 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:新建数据库": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
-      "obsidian42-brat:BRAT": false
+      "command-palette:打开命令面板": false
     }
   },
   "active": "ea65bc0da501beda",
   "lastOpenFiles": [
+    "zh-CN/笔记/✒️贡献者和行政员指南/格式标准.md",
+    "未命名.base",
+    "zh-CN/笔记/index.md",
+    "().md",
+    "zh-CN/toc.md",
+    "zh-CN/笔记/✒️贡献者和行政员指南",
+    "zh-CN/笔记/贡献者和行政员指南/格式标准.md",
+    "zh-CN/笔记/贡献者和行政员指南",
+    "zh-CN/🔌 知识库插件列表.md",
+    "zh-CN/笔记/🛠️ 开发/♦️ 区块链/Polygon/安装 SDK 和侧链部署.md",
+    "zh-CN/笔记/贡献者指南/格式标准.md",
+    "zh-CN/index.md",
+    "zh-CN/笔记/贡献者指南",
     "zh-CN/笔记/🧱 基础设施/容器既没有 netstat 和 lsof 也不是 root 时如何排查网络？手动解析 procfs！.md",
     "zh-CN/笔记/🛠️ 开发/为 DuckDB WASM 制作 Drizzle ORM Driver.md",
     "zh-CN/笔记/🛠️ 开发/在容器内如何列出正在被监听的端口或者打开的文件？.md",
@@ -296,10 +310,6 @@
     "node_modules/@antfu",
     "vite.config.ts.timestamp-1728465284690-0e28b7c319039.mjs",
     "vite.config.ts.timestamp-1728464096252-aa8904c364146.mjs",
-    "pnpm-lock.yaml.2653060370",
-    "node_modules/@types",
-    "node_modules/@nolebase",
-    "node_modules/@netlify",
     "笔记/🛠️ 开发/JS Framework Benchmark 命令速查.md",
     "笔记/🛠️ 开发/Another Custom Directive API in Vue and Vapor.md",
     "笔记/🛠️ 开发/因为 dayjs 不能轻松导入全部的 i18n 语言而换用了 date-fns.md",
@@ -317,16 +327,6 @@
     "笔记/🪄 Vtuber/assets/Pasted image 20231208233927.png",
     "笔记/🪄 Vtuber/assets/Pasted image 20231208233632.png",
     "笔记/🧱 基础设施/🛜 OpenWRT/assets/Pasted image 20240520003337.png",
-    "笔记/🧱 基础设施/🛜 OpenWRT/从 openclash 迁移到 sing-box.md",
-    "笔记/🧱 基础设施/🚢 Kubernetes/开发一个 Kubernetes Controller.md",
-    "笔记/🧱 基础设施/🚢 Kubernetes/将 TrueNAS 共享存储连接到 K8s 集群.md",
-    "笔记/🧱 基础设施/🚢 Kubernetes/kubectl 速查表.md",
-    "笔记/🧱 基础设施/🚢 Kubernetes/Pod 错误排查之.md",
-    "笔记/🧱 基础设施/云上集群的 GPU.md",
-    "笔记/🧮 数学/空洞的想法.md",
-    "笔记/🧩 开源贡献/Kubernetes/开始之前.md",
-    "笔记/🤖 AI 人工智能/领域/音频/配置和运行 ChatTTS.md",
-    "笔记/🤖 AI 人工智能/领域/音频/在 macOS 上配置 GPT-SoVITS-WebUI.md",
     "未命名.canvas"
   ]
 }

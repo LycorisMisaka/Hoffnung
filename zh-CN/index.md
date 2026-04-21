@@ -2,13 +2,13 @@
 layout: home
 sidebar: false
 
-title: Nólëbase
-titleTemplate: 记录回忆，知识和畅想的地方
+title: Hoffnung
+titleTemplate: 属于大家的开放多主题知识库
 
 hero:
-  name: g~Nj$3J2^
-  text: 记录回忆，知识和畅想的地方
-  tagline: 以 Nólëbase 为名，读作 nole-base，取自意为「知识」的昆雅语 nólë 和意为「基础」的英文 base，即「知识库」
+  name: Hoffnung
+  text: 属于大家的开放多主题知识库
+  tagline: 本站以德语命名，“Hoffnung” 意为希望。
   image:
     src: /logo.svg
     alt: Vitest
@@ -17,11 +17,11 @@ hero:
       text: 开始阅读
       link: /zh-CN/笔记/index
     - theme: alt
-      text: 加入 Discord 服务器
-      link: https://discord.gg/XuNFDcDZGj
+      text: 加入Telegram频道
+      link: https://t.me/OriyukiLin
     - theme: alt
       text: GitHub 上浏览
-      link: https://github.com/nolebase/nolebase
+      link: https://github.com/LycorisMisaka/Hoffnung
 
 features:
   - title: 多样的主题和内容
